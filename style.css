@@ -1,0 +1,75 @@
+.side {
+    box-shadow: 5px 10px 20px grey;
+    float: left;
+}
+
+body {
+    margin: 0;
+}
+
+.itm:hover {
+    background-color: #D7FFFD;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #889EAF;
+}
+
+.itm {
+    text-decoration: none;
+    color: #889EAF;
+}
+
+.video {
+    font-size: 1.5rem;
+    color: #889EAF;
+}
+
+.arrow {
+    size: 2rem;
+}
+
+.itm:focus {
+    background-color: #A4EBF3;
+    color: black;
+}
+
+.parent {
+    position: relative;
+}
+
+.mainarea {
+    position: absolute;
+    float: right;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    margin-top: 130px;
+    padding-left: 122px !important;
+    background-color: #F3F1F5;
+}
+
+.urlbox {
+    padding-top: 2rem;
+}
+
+.upload {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+::placeholder {
+    color: black !important;
+    opacity: 1;
+}
